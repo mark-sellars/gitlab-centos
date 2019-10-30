@@ -120,4 +120,4 @@ rm -rf pre_setup jcameron-key.asc.1 jcameron-key.asc pre_setup.sh
 
 fi
 
-echo Done
+echo All done, gitlab docker is building. Go get a cup of coffee and visit https://localhost in five minutes. The default username is root.
