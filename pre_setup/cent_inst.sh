@@ -11,7 +11,7 @@ EOL
 #webmin key
 wget http://www.webmin.com/jcameron-key.asc && rpm --import jcameron-key.asc
 #installing software
-yum -y install epel-release && yum repolist && yum -y install htop iftop tmux nnn ; yum -y install webmin ; yum -y install cockpit cockpit-storaged ; yum -y install cockpit-docker
+yum -y install epel-release && yum repolist && yum -y install htop tmux ; yum -y install webmin ; yum -y install cockpit cockpit-storaged ; yum -y install cockpit-docker
 #add firewall rules
 firewall-cmd --zone=public --permanent --add-port=10000/tcp
 firewall-cmd --zone=public --permanent --add-port=3389/tcp
